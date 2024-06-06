@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>print web page</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td
+          colspan="15"
+          style="border: none; font-size: 1.2rem; padding-bottom: 1.2rem"
+        >
+          LANDMARK Future Trades summary from 06-06-2024
+        </td>
+      </tr>
+
+      <!-- <thead> -->
+      <tr style="background-color: #cccccc">
+        <th>Instrument</th>
+        <th>Symbol</th>
+        <th>Expiry</th>
+        <th>Strike</th>
+        <th>Callput</th>
+        <th>B/F Quantity</th>
+        <th>Average Rate</th>
+        <th>Purchase Quantity</th>
+        <th>Pure.Avg.Rate</th>
+        <th>Sale Quantity</th>
+        <th>Sale Avg</th>
+        <th>Net Quantity</th>
+        <th>Net Avg</th>
+        <th>Closing Price</th>
+        <th>Lot Price</th>
+      </tr>
+
+      <!-- </thead> -->
+      <tbody>
+        <tr>
+          <th>FUTIDX</th>
+          <td>NEFTY</td>
+          <td>15-06-24</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>1366</td>
+          <td>1366</td>
+          <td>125669.4</td>
+          <td>1366</td>
+          <td></td>
+          <td></td>
+          <td>1765</td>
+          <td>2</td>
+        </tr>
+
+        <tr>
+          <th>FUTIDX</th>
+          <td>NIFTY</td>
+          <td>27-04-23</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>1366</td>
+          <td>1366</td>
+          <td>125679.4</td>
+          <td>1366</td>
+          <td></td>
+          <td></td>
+          <td>17861</td>
+          <td>2</td>
+        </tr>
+
+        <tr>
+          <th>OPTIDX</th>
+          <td>NIFTY</td>
+          <td>27-04-23</td>
+          <td>0</td>
+          <td>PE</td>
+          <td></td>
+          <td></td>
+          <td>1366</td>
+          <td>1366</td>
+          <td>125679.4</td>
+          <td>1366</td>
+          <td></td>
+          <td></td>
+          <td>17861</td>
+          <td>2</td>
+        </tr>
+
+        <tr>
+          <th>OPTIDX</th>
+          <td>NIFTY</td>
+          <td>27-04-23</td>
+          <td>0</td>
+          <td>PE</td>
+          <td></td>
+          <td></td>
+          <td>1366</td>
+          <td>1366</td>
+          <td>125679.4</td>
+          <td>1366</td>
+          <td></td>
+          <td></td>
+          <td>17861</td>
+          <td>2</td>
+        </tr>
+
+        <tr>
+          <th>OPTIDX</th>
+          <td>NIFTY</td>
+          <td>27-04-23</td>
+          <td>0</td>
+          <td>CE</td>
+          <td></td>
+          <td></td>
+          <td>1366</td>
+          <td>1366</td>
+          <td>125679.4</td>
+          <td>1366</td>
+          <td></td>
+          <td></td>
+          <td>17861</td>
+          <td>2</td>
+        </tr>
+
+        <tr>
+          <th>OPTIDX</th>
+          <td>NIFTY</td>
+          <td>27-04-23</td>
+          <td>0</td>
+          <td>CE</td>
+          <td></td>
+          <td></td>
+          <td>1366</td>
+          <td>1366</td>
+          <td>125679.4</td>
+          <td>1366</td>
+          <td></td>
+          <td></td>
+          <td>17861</td>
+          <td>2</td>
+        </tr>
+
+        <tr style="background-color: #cccccc">
+          <th colspan="5">Cilent Total</th>
+          <td>0</td>
+          <td></td>
+          <td>1366</td>
+          <td></td>
+          <td>125</td>
+          <td></td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <th colspan="4">
+            <span style="color: limegreen"><b>Gross Profit</b></span>
+          </th>
+          <td>10</td>
+          <td><b>Brokerage</b></td>
+          <td>0</td>
+          <td><b>CGST:</b></td>
+          <td>0</td>
+          <td><b>SGST</b></td>
+          <td>0</td>
+          <td><b>SEBI</b></td>
+          <td>0</td>
+          <td>
+            <span style="color: limegreen">Net Profit</span>
+          </td>
+          <td>10</td>
+        </tr>
+      </tbody>
+    </table>
+    <button id="printBtn" onclick="printFunction()">Print</button>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
